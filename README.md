@@ -1,7 +1,3 @@
-  
-
-
-[![Integri AI Audit](https://github.com/integri/integri-sample-project/actions/workflows/integri-audit.yml/badge.svg)](https://github.com/integri/integri-sample-project/actions/workflows/integri-audit.yml)
 
 - **Project:** Integri
 - **Event**: Encode Club AI Hackathon in London (Fri 8th March - Sun 10th March)
@@ -92,21 +88,6 @@ Add your own smart contracts, create a pull request and you should see the repor
 7. Errors in logic and arithmetic.
 8. Computational units limit.
 
-## Preview
-
-### On Success
-
-<img width="855" alt="image" src="https://github.com/integri/integri-sample-project/assets/1114325/c9ce0e8c-68f0-4fba-be6b-56627246b8a6">
-
-### On Error
-
-#### In the Logs (Developer-friendly)
-
-<img width="1507" alt="image" src="https://github.com/integri/integri-sample-project/assets/1114325/093f8aaa-1b58-4f89-ae1f-db3113097a79">
-
-#### In the Pull Request (Reviewer-friendly)
-
-<img width="860" alt="image" src="https://github.com/integri/integri-sample-project/assets/1114325/759d4e3a-ed0c-4ba6-bef5-b453a92bc750">
 
 ## References
 
