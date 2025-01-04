@@ -1,6 +1,5 @@
 
 - **Project:** Integri
-- **Event**: Encode Club AI Hackathon in London (Fri 8th March - Sun 10th March)
 - **Website:** [integri.cx](https://integri.cx)
 - **Twitter:** [@Integridotcx](https://x.com/Integridotcx)
 
