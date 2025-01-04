@@ -1,24 +1,18 @@
-```
-                     /$$                               /$$     
-                    | $$                              |__/ 
-  /$$$$$$$  /$$$$$$ | $$  /$$$$$$  /$$$$$$$   /$$$$$$  /$$ /$$$$$$$$  /$$$$$$   /$$$$$$
- /$$_____/ /$$__  $$| $$ |____  $$| $$__  $$ |____  $$| $$|____ /$$/ /$$__  $$ /$$__  $$
-|  $$$$$$ | $$  \ $$| $$  /$$$$$$$| $$  \ $$  /$$$$$$$| $$   /$$$$/ | $$$$$$$$| $$  \__/
- \____  $$| $$  | $$| $$ /$$__  $$| $$  | $$ /$$__  $$| $$  /$$__/  | $$_____/| $$
- /$$$$$$$/|  $$$$$$/| $$|  $$$$$$$| $$  | $$|  $$$$$$$| $$ /$$$$$$$$|  $$$$$$$| $$
-|_______/  \______/ |__/ \_______/|__/  |__/ \_______/|__/|________/ \_______/|__/
-```
+  
 
-# @solanaizer/solanaizer-sample-project
 
-[![Solanaizer AI Audit](https://github.com/solanaizer/solanaizer-sample-project/actions/workflows/solana-audit.yml/badge.svg)](https://github.com/solanaizer/solanaizer-sample-project/actions/workflows/solana-audit.yml)
+[![Integri AI Audit](https://github.com/integri/integri-sample-project/actions/workflows/integri-audit.yml/badge.svg)](https://github.com/integri/integri-sample-project/actions/workflows/integri-audit.yml)
 
-- **Project:** Solanaizer
+- **Project:** Integri
 - **Event**: Encode Club AI Hackathon in London (Fri 8th March - Sun 10th March)
+- **Website:** [integri.cx](https://integri.cx)
+- **Twitter:** [@Integridotcx](https://x.com/Integridotcx)
+
+![Banner](https://pbs.twimg.com/profile_banners/1875380630420090880/1735961009/1500x500)
 
 The purpose of this sample project is to:
 
-- demonstrate Solanaizer, a Solana Smart Contract Auditing tool using AI, readily available on the [Github Action Marketplace](https://github.com/marketplace/actions/github-action-for-solanaizer)
+- demonstrate Integri, a Solana Smart Contract Auditing tool using AI, readily available on the [Github Action Marketplace](https://github.com/marketplace/actions/github-action-for-integri)
 - provide a sample Solana project using the [Anchor Framework](https://github.com/coral-xyz/anchor) ⚓️
 - includes Rust smart contracts with vulnerabilities 👾, and some with no vulnerabilities ✅.
 
@@ -26,7 +20,7 @@ The purpose of this sample project is to:
 - [Description](#description)
 - [Getting Started](#getting-started)
   - [Create a Solana project](#create-a-solana-project)
-  - [Add a Github Action using Solanaizer](#add-a-github-action-using-solanaizer)
+  - [Add a Github Action using Integri](#add-a-github-action-using-integri)
   - [Add Code](#add-code)
 - [Vulnerabilities](#vulnerabilities)
 - [Preview](#preview)
@@ -35,21 +29,21 @@ The purpose of this sample project is to:
 
 ## Description
 
-**Solanaizer** is a comprehensive Solana Smart Contrat Auditing Tool using AI 🤖 specifically designed for [Solana](https://solana.com/). Its primary purpose is to thoroughly review and analyze the code governing smart contracts written in [Rust](https://www.rust-lang.org/) for vulnerabilities. 🐛
+**Integri** is a comprehensive Solana Smart Contract Auditing Tool using AI 🤖 specifically designed for [Solana](https://solana.com/). Its primary purpose is to thoroughly review and analyze the code governing smart contracts written in [Rust](https://www.rust-lang.org/) for vulnerabilities. 🐛
 
 - **Objective:** 🎯
-  - _Solanaizer_ aims to identify potential vulnerabilities, flaws, and security issues within smart contract code.
+  - _Integri_ aims to identify potential vulnerabilities, flaws, and security issues within smart contract code.
 - **Importance:** ⚠️
-  - Given the decentralized nature of blockchain technology, it’s crucial to ensure that smart contracts are secure before deployment. _Solanaizer_ provides this critical layer of protection.
+  - Given the decentralized nature of blockchain technology, it’s crucial to ensure that smart contracts are secure before deployment. _Integri_ provides this critical layer of protection.
 - **Auditing Process:** 🕵🏻‍♀️
   - The tool conducts a detailed analysis of the contract’s code, performed by AI 🤖. It looks for security weaknesses, inefficient code, and other potential risks.
 - **LLMs (Language Models):** 💭
-  - To enhance its auditing capabilities, _Solanaizer_ leverages various LLMs, including:
+  - To enhance its auditing capabilities, _Integri_ leverages various LLMs, including:
     - [Stability.AI Stable Code 3B](https://stability.ai/news/stable-code-2024-llm-code-completion-release)
     - [GPT-4](https://openai.com/gpt-4)
     - [Claude3 Opus](https://www.anthropic.com/news/claude-3-family)
 
-By using **Solanaizer**, developers and users have an extra level of confidence about their smart contracts being free from critical bugs, vulnerabilities, and security flaws, ensuring a safer and more reliable **Solana** ecosystem.
+By using **Integri**, developers and users have an extra level of confidence about their smart contracts being free from critical bugs, vulnerabilities, and security flaws, ensuring a safer and more reliable **Solana** ecosystem.
 
 Feel free to explore the repository for more in-depth details and documentation!
 
@@ -61,10 +55,10 @@ Feel free to explore the repository for more in-depth details and documentation!
 anchor init my-solana-project && cd my-solana-project
 ```
 
-### Add a Github Action using Solanaizer
+### Add a Github Action using Integri
 
 ```yml
-name: Solanaizer AI Audit
+name: Integri AI Audit
 
 on:
   push:
@@ -78,9 +72,9 @@ jobs:
     steps:
       - name: Check-out the repository
         uses: actions/checkout@v4
-      - name: Solanaizer Audit
+      - name: Integri Audit
         continue-on-error: false
-        uses: solanaizer/solanaizer-action
+        uses: integri/integri-action
 ```
 
 ### Add Code
@@ -102,22 +96,22 @@ Add your own smart contracts, create a pull request and you should see the repor
 
 ### On Success
 
-<img width="855" alt="image" src="https://github.com/solanaizer/solanaizer-sample-project/assets/1114325/c9ce0e8c-68f0-4fba-be6b-56627246b8a6">
+<img width="855" alt="image" src="https://github.com/integri/integri-sample-project/assets/1114325/c9ce0e8c-68f0-4fba-be6b-56627246b8a6">
 
 ### On Error
 
 #### In the Logs (Developer-friendly)
 
-<img width="1507" alt="image" src="https://github.com/solanaizer/solanaizer-sample-project/assets/1114325/093f8aaa-1b58-4f89-ae1f-db3113097a79">
+<img width="1507" alt="image" src="https://github.com/integri/integri-sample-project/assets/1114325/093f8aaa-1b58-4f89-ae1f-db3113097a79">
 
 #### In the Pull Request (Reviewer-friendly)
 
-<img width="860" alt="image" src="https://github.com/solanaizer/solanaizer-sample-project/assets/1114325/759d4e3a-ed0c-4ba6-bef5-b453a92bc750">
+<img width="860" alt="image" src="https://github.com/integri/integri-sample-project/assets/1114325/759d4e3a-ed0c-4ba6-bef5-b453a92bc750">
 
 ## References
 
-- [Solanaizer on the Github Action Marketplace](https://github.com/marketplace/actions/github-action-for-solanaizer)
-- [solanaizer/solanaizer-action Repository](https://github.com/solanaizer/solanaizer-action)
+- [Integri on the Github Action Marketplace](https://github.com/marketplace/actions/github-action-for-integri)
+- [integri/integri-action Repository](https://github.com/integri/integri-action)
 
 ## Team 👨🏻‍💻👨🏻‍💻👨🏻‍💻👨🏻‍💻
 
